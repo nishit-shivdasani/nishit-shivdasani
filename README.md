@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=320&section=header&text=NISHIT%20SHIVDASANI&fontSize=78&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=FS%20Dev%20%7C%20Co-founder%20%40%20BS8%20%7C%20Engineering%20the%20Future&descAlignY=60&descSize=20&descAlign=56&color=0:4FC3F7,100:C084F5" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=320&section=header&text=NISHIT%20SHIVDASANI&fontSize=78&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=FS%20Dev%20%7C%20Co-founder%20%40%20BFX%20%7C%20Engineering%20the%20Future&descAlignY=60&descSize=20&descAlign=56&color=0:4FC3F7,100:C084F5" width="100%" />
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Dancing+Script&weight=600&size=48&pause=1000&center=true&vCenter=true&width=900&height=100&lines=Welcome+to+my+coding+playground+%F0%9F%8E%AF;TS%2FJS+Developer+(MERN+Stack+%26+Beyond);Python+Developer;Open+Source+Enthusiast;Building+cool+things+with+code+%F0%9F%9A%80" alt="Typing SVG" />
