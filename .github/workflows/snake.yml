@@ -18,7 +18,7 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: BinaryStudio8
+          github_user_name: BinaryForgeX
           outputs: |
             ./assets/github-contribution-grid-snake-dark.svg
             ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark
