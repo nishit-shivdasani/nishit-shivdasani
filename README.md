@@ -124,44 +124,6 @@
 <div align="center">
   <h2>
     <img 
-      src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Objects/Bar%20Chart.png" 
-      width="35" 
-      height="35" 
-      alt="Bar Chart Emoji"
-    /> 
-    GitHub Stats
-  </h2>
-</div>
-
-<table align="center" style="border-collapse: collapse;">
-  <tr>
-    <td align="center" width="50%">
-      <img 
-        src="https://github-readme-stats.vercel.app/api?username=nishit-shivdasani&show_icons=true&theme=transparent&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" 
-        alt="ishit Shivdasani GitHub Stats"
-        width="100%"
-      />
-    </td>
-    <td align="center" width="50%">
-      <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishit-shivdasani&layout=compact&theme=transparent&hide_border=false&langs_count=8"
-        alt="Top Languages"
-        width="100%"
-      />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=nishit-shivdasani&theme=transparent&hide_border=false" alt="GitHub Streak" />
-  </a>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <h2>
-    <img 
       src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Travel%20and%20places/Rocket.png" 
       width="35" 
       height="35" 
