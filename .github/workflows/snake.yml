@@ -8,13 +8,28 @@ on:
 permissions:
   contents: write
 
+# Shared with the other README-asset workflows so they queue instead of racing.
+# All three commit to main; two pushing at once means one loses and its asset
+# silently stays stale until the next day.
+concurrency:
+  group: readme-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    # snk occasionally hangs fetching the contribution grid. Without a cap the
+    # job sits on the default 6-hour timeout, holding the concurrency lock and
+    # blocking every other asset workflow behind it.
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Full history: the push retry below rebases, which a depth-1 clone
+          # cannot do.
+          fetch-depth: 0
 
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -27,10 +42,39 @@ jobs:
             ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Verify the SVGs were actually written
+        run: |
+          for f in assets/github-contribution-grid-snake.svg \
+                   assets/github-contribution-grid-snake-dark.svg; do
+            if [ ! -s "$f" ]; then
+              echo "::error::$f is missing or empty — snk produced no output."
+              exit 1
+            fi
+          done
+
       - name: Commit and push generated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
-          git diff --staged --quiet || git commit -m "chore: regenerate snake contribution graph"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "Snake unchanged since last run — nothing to push."
+            exit 0
+          fi
+
+          git commit -m "chore: regenerate snake contribution graph"
+
+          # A plain push fails outright if anything landed on main meanwhile,
+          # which leaves the committed SVG unpushed and the README pointing at
+          # yesterday's animation. Rebase and retry instead of giving up.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest ${GITHUB_REF_NAME}."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          done
+
+          echo "::error::Could not push the regenerated snake after 3 attempts."
+          exit 1

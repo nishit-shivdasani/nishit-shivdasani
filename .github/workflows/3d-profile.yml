@@ -8,12 +8,21 @@ on:
 permissions:
   contents: write
 
+# Shared with snake.yml and projects.yml so the three README-asset workflows
+# queue instead of racing each other's pushes to main.
+concurrency:
+  group: readme-assets
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the push retry rebases; depth-1 cannot
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
@@ -30,5 +39,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib
-          git diff --staged --quiet || git commit -m "chore: regenerate 3D contribution graph"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "3D renders unchanged since last run — nothing to push."
+            exit 0
+          fi
+
+          git commit -m "chore: regenerate 3D contribution graph"
+
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest ${GITHUB_REF_NAME}."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          done
+
+          echo "::error::Could not push the regenerated 3D graph after 3 attempts."
+          exit 1
