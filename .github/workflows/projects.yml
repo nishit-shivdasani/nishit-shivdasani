@@ -1,0 +1,45 @@
+name: Update Top Projects
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # runs every day at 06:00 UTC (11:30 IST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate projects table
+        env:
+          # GH_PAT should be a fine-grained PAT with Repository access: all
+          # repositories, Permissions → Repository → Metadata: read-only.
+          # Metadata alone is enough — the script reads names, languages, and
+          # visibility, never file contents, and never writes.
+          #
+          # Without GH_PAT this falls back to the repo-scoped token, which sees
+          # public commits only: the private block reads zero and the public
+          # counts under-report.
+          #
+          # Org-owned private repos also require the org to allow fine-grained
+          # PATs (Org settings → Personal access tokens), and may need per-token
+          # approval by an owner.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: node .github/scripts/update-projects.mjs
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: refresh top projects table"
+          git push

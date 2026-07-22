@@ -1,8 +1,12 @@
 name: Generate Snake
+
 on:
   schedule:
-    - cron: "0 0 * * *" # runs every day at midnight
+    - cron: "0 0 * * *" # runs every day at midnight UTC
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -10,39 +14,23 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: nishit-shivdasani
+          github_user_name: ${{ github.repository_owner }}
+          # One line per output file. Each path must be DISTINCT — two lines
+          # pointing at the same filename means the second silently overwrites
+          # the first, leaving one of the two variants stale.
           outputs: |
-            ./assets/github-contribution-grid-snake-dark.svg
+            ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit and Push generated SVG
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push generated SVG
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin main
-          git checkout main
-
-          # Stash local snake changes before pulling remote updates
-          git stash push --include-untracked || true
-
-          # Rebase onto latest main
-          git pull origin main --rebase || true
-
-          # Reapply stashed snake output
-          git stash pop || true
-
-          git add assets/
-          git commit -m "🐍 Update snake contribution graph" || echo "No changes to commit"
-
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --staged --quiet || git commit -m "chore: regenerate snake contribution graph"
+          git push

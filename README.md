@@ -1,175 +1,202 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=320&section=header&text=NISHIT%20SHIVDASANI&fontSize=78&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=Full-Stack%20Developer%20%7C%20Clean%20Architecture%20%7C%20Engineering%20the%20Future&descAlignY=60&descSize=20&descAlign=56&color=0:4FC3F7,100:C084F5" width="100%" />
-
-<!-- <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Dancing+Script&weight=600&size=48&pause=1000&center=true&vCenter=true&width=900&height=100&lines=Welcome+to+my+coding+playground+%F0%9F%8E%AF;TS%2FJS+Developer+(MERN+Stack+%26+Beyond);Python+Developer;Open+Source+Enthusiast;Building+cool+things+with+code+%F0%9F%9A%80" alt="Typing SVG" />
-</p> -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Nishit%20Shivdasani&fontSize=64&fontAlignY=36&fontColor=ffffff&desc=Full-Stack%20Developer&descAlignY=58&descSize=18&color=0:4FC3F7,100:C084F5" width="100%" alt="Nishit Shivdasani" />
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nishit-shivdasani&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1500&color=4FC3F7&center=true&vCenter=true&width=620&height=45&lines=TypeScript+%C2%B7+NestJS+%C2%B7+React+%C2%B7+PostgreSQL;Clean+architecture%2C+reusable+by+default" alt="TypeScript, NestJS, React, PostgreSQL" />
 </p>
 
-<div align="center">
-<h2><img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="35" height="35"> About Me</h2>
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/nishit-shivdasani-54953540b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:nishitshivdasani2001@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://drive.google.com/file/d/1KLw8J_zy4SHtcUWBTTJOhe9ZdvAso-Ai/view?usp=sharing"><img src="https://img.shields.io/badge/Résumé-4FC3F7?style=flat-square&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+  <img src="https://komarev.com/ghpvc/?username=nishit-shivdasani&label=Views&color=7C6BF5&style=flat-square" alt="Profile views" />
+</p>
 
-<ul>
-  <li>🚀 <b>Full Stack Developer</b> passionate about building scalable, production-ready applications</li>
-  <li>💡 Enthusiastic about <b>clean architecture</b> and <b>reusable component design</b></li>
-  <li>🔧 Skilled in: <b>JavaScript</b>, <b>TypeScript</b>, <b>Python</b>, <b>PHP</b>, <b>Java</b></li>
-  <li>🔍 Exploring <b>AI/ML</b>, <b>data visualization</b>, and <b>cloud deployment</b></li>
-  <li>🧩 Fun fact: I enjoy solving complex problems and optimizing backend performance</li>
-  <li>
-    📄 View my 
-    <a href="https://drive.google.com/file/d/1KLw8J_zy4SHtcUWBTTJOhe9ZdvAso-Ai/view?usp=sharing" target="_blank" style="text-decoration: none;">
-      <b>Resume</b>
-    </a>
-  </li>
-</ul>
+---
 
-<div align="center">
-<h2><img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Travel%20and%20places/Fire.png" width="35" height="35"> Tech & Tools</h2>
-</div>
+## About
+
+Full-stack developer building production-grade applications end to end. I care about clean
+architecture, reusable component design, and backend performance — the parts that decide
+whether a codebase is still pleasant to work in six months later.
+
+- Backend-leaning full-stack, strongest in **TypeScript / NestJS / PostgreSQL**
+- Currently exploring AI/ML, data visualization, and cloud deployment
+- Open to collaboration and interesting engineering problems
+
+## Tech
 
 <table align="center">
   <tr>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="45" height="45" title="JavaScript" />
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="45" height="45" title="JavaScript" alt="JavaScript" />
       <br>JavaScript
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=typescript" width="45" height="45" title="TypeScript" />
+      <img src="https://skillicons.dev/icons?i=typescript" width="45" height="45" title="TypeScript" alt="TypeScript" />
       <br>TypeScript
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="45" height="45" title="Python" />
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="45" height="45" title="Python" alt="Python" />
       <br>Python
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/java-icon.svg" width="45" height="45" title="Java" />
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" width="45" height="45" title="Java" alt="Java" />
       <br>Java
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=php" width="45" height="45" title="PHP" />
+      <img src="https://skillicons.dev/icons?i=php" width="45" height="45" title="PHP" alt="PHP" />
       <br>PHP
     </td>
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="45" height="45" title="React" />
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="45" height="45" title="React" alt="React" />
       <br>React
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" title="Next.js" />
+      <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" title="Next.js" alt="Next.js" />
       <br>Next.js
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45" title="Node.js" />
+      <img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45" title="Node.js" alt="Node.js" />
       <br>Node.js
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=nestjs" width="45" height="45" title="NestJS" />
+      <img src="https://skillicons.dev/icons?i=nestjs" width="45" height="45" title="NestJS" alt="NestJS" />
       <br>NestJS
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=express" width="45" height="45" title="Express.js" />
+      <img src="https://skillicons.dev/icons?i=express" width="45" height="45" title="Express.js" alt="Express.js" />
       <br>Express.js
     </td>
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" title="TailwindCSS" />
+      <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" title="TailwindCSS" alt="TailwindCSS" />
       <br>Tailwind
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" title="MongoDB" />
+      <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" title="MongoDB" alt="MongoDB" />
       <br>MongoDB
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="45" height="45" title="MySQL" />
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="45" height="45" title="MySQL" alt="MySQL" />
       <br>MySQL
     </td>
     <td align="center" width="90">
-      <img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&titles=true" width="45" height="45" title="PostgreSQL" />
+      <img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql" width="45" height="45" title="PostgreSQL" alt="PostgreSQL" />
       <br>PostgreSQL
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" title="Firebase" />
+      <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" title="Firebase" alt="Firebase" />
       <br>Firebase
     </td>
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=vercel" width="45" height="45" title="Vercel" />
+      <img src="https://skillicons.dev/icons?i=vercel" width="45" height="45" title="Vercel" alt="Vercel" />
       <br>Vercel
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=docker" width="45" height="45" title="Docker" />
+      <img src="https://skillicons.dev/icons?i=docker" width="45" height="45" title="Docker" alt="Docker" />
       <br>Docker
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=postman" width="45" height="45" title="Postman" />
+      <img src="https://skillicons.dev/icons?i=postman" width="45" height="45" title="Postman" alt="Postman" />
       <br>Postman
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=git" width="45" height="45" title="Git" />
+      <img src="https://skillicons.dev/icons?i=git" width="45" height="45" title="Git" alt="Git" />
       <br>Git
     </td>
     <td align="center" width="90">
-      <img src="https://go-skill-icons.vercel.app/api/icons?i=canva&titles=true" width="45" height="45" title="Canva" />
+      <img src="https://go-skill-icons.vercel.app/api/icons?i=canva" width="45" height="45" title="Canva" alt="Canva" />
       <br>Canva
     </td>
   </tr>
 </table>
 
-<div align="center">
-  <h2>
-    <img 
-      src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Travel%20and%20places/Rocket.png" 
-      width="35" 
-      height="35" 
-      alt="Rocket Emoji"
-    /> 
-    Contributions
-  </h2>
-</div>
+## Projects
 
-<div align="center" style="margin: 20px 0;">
-  <!-- 3D Contribution Graph -->
-  <img 
-    src="./profile-3d-contrib/profile-night-rainbow.svg" 
-    width="75%" 
-    alt="3D GitHub Contribution Graph"
-    style="max-width: 800px; border-radius: 16px; box-shadow: 0 0 20px rgba(79,195,247,0.3);" 
-  />
-</div>
+Ordered by how much I've actually been committing lately — regenerated daily by
+[`projects.yml`](.github/workflows/projects.yml), so the list reorders itself as work shifts.
 
-<p align="center" style="margin-top: 20px;">
-  <!-- Snake Contribution Animation -->
-  <img 
-    src="./assets/github-contribution-grid-snake-dark.svg?palette=github-dark" 
-    width="100%" 
-    alt="GitHub Contribution Snake Animation"
-  />
+<!-- PROJECTS:START -->
+
+| Project | Description | Language | Commits | Stars |
+| --- | --- | --- | --: | --: |
+| **[nestjs-postgres-docker-boilerplate](https://github.com/nishit-shivdasani/nestjs-postgres-docker-boilerplate)** | A robust, production-grade NestJS starter packed with essential features | TypeScript | — | ⭐ 1 |
+| **[custom-nestjs-automapper](https://github.com/nishit-shivdasani/custom-nestjs-automapper)** | A lightweight, type-safe object mapping library for TypeScript and NestJS | TypeScript | — | — |
+| **[Nest-Mart-Shop-Frontend-React](https://github.com/nishit-shivdasani/Nest-Mart-Shop-Frontend-React)** | Retail storefront with role-based dashboards, product listings, and sales | TypeScript | — | ⭐ 1 |
+| **[Twitter-Clone](https://github.com/nishit-shivdasani/Twitter-Clone)** | Twitter clone built with Node, EJS and MySQL — tweets, likes, follows | JavaScript | — | ⭐ 1 |
+| **[Melody-Music-Player](https://github.com/nishit-shivdasani/Melody-Music-Player)** | Python music player with playlists and effortless audio control | Jupyter Notebook | — | ⭐ 1 |
+| **[Fusion-2048-Game](https://github.com/nishit-shivdasani/Fusion-2048-Game)** | Browser-based 2048 with keyboard and swipe controls | CSS | — | — |
+
+<sub>Placeholder — replaced on the first workflow run.</sub>
+
+<!-- PROJECTS:END -->
+
+<p align="center"><a href="https://github.com/nishit-shivdasani?tab=repositories">See all repositories →</a></p>
+
+## Collaborations
+
+Most of my work happens alongside other people. Repositories I don't own but commit to —
+regenerated by the same workflow, ranked by my own commits rather than the repo's size.
+
+<!-- COLLABS:START -->
+
+| Repository | Owner | Description | Commits | PRs |
+| --- | --- | --- | --: | --: |
+| — | — | — | — | — |
+
+<sub>Placeholder — replaced on the first workflow run.</sub>
+
+<!-- COLLABS:END -->
+
+## Private work
+
+Most of what I build ships behind closed repos, so the tables above tell only part of the story.
+Counted the same way by [`projects.yml`](.github/workflows/projects.yml) — volume and stack only.
+Client and employer repositories stay unnamed by design.
+
+<!-- PRIVATE:START -->
+
+<p align="center"><sub>Placeholder — replaced on the first workflow run.</sub></p>
+
+<!-- PRIVATE:END -->
+
+## Activity
+
+<p align="center">
+  <img width="60%" src="https://streak-stats.demolab.com?user=nishit-shivdasani&hide_border=true&border_radius=10&background=0D1117&stroke=7C6BF5&ring=4FC3F7&fire=C084F5&currStreakLabel=4FC3F7&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" alt="Contribution streak" />
 </p>
 
-<div align="center">
-  <h2>
-    <img 
-      src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Handshake.png" 
-      width="35" 
-      height="35" 
-      alt="Handshake Emoji"
-    /> 
-    Let's Connect
-  </h2>
-  <p>
-    <a href="https://www.linkedin.com/in/nishit-shivdasani-b5b3b1237/" target="_blank" style="text-decoration: none;">
-      <img src="https://skillicons.dev/icons?i=linkedin" height="40" width="40" alt="LinkedIn" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="mailto:nishitshivdasani2001@gmail.com" target="_blank" style="text-decoration: none;">
-      <img src="https://skillicons.dev/icons?i=gmail" height="40" width="40" alt="Gmail" />
-    </a>
-  </p>
-</div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4FC3F7,100:C084F5&section=footer&animation=fadeIn" width="100%"/>
+<p align="center">
+  <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=nishit-shivdasani&bg_color=0d1117&color=4FC3F7&line=C084F5&point=ffffff&area=true&area_color=7C6BF5&hide_border=true&radius=10&custom_title=Commit%20activity" alt="Commit activity graph" />
+</p>
+
+### Contributions in 3D
+
+Regenerated nightly by [`3d-profile.yml`](.github/workflows/3d-profile.yml) — each block is a day of commits.
+
+<p align="center">
+  <img width="88%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+</p>
+
+<details>
+  <summary>Other 3D renders</summary>
+  <p align="center"><img width="88%" src="./profile-3d-contrib/profile-season-animate.svg" alt="Seasonal animated render" /></p>
+  <p align="center"><img width="88%" src="./profile-3d-contrib/profile-gitblock.svg" alt="Git block render" /></p>
+  <p align="center"><img width="88%" src="./profile-3d-contrib/profile-night-view.svg" alt="Night view render" /></p>
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake animation" />
+</picture>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&text=Thanks%20for%20stopping%20by&fontSize=32&fontAlignY=72&fontColor=ffffff&color=0:C084F5,100:4FC3F7" width="100%" alt="Thanks for stopping by" />
+
+<p align="center"><sub>Built and maintained by <a href="https://github.com/nishit-shivdasani">@nishit-shivdasani</a></sub></p>
