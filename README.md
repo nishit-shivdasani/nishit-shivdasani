@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Nishit%20Shivdasani&fontSize=64&fontAlignY=36&fontColor=ffffff&desc=Software%20Engineer%20(SDE%20II)%20%C2%B7%20Full-Stack%20%C2%B7%20Microservices&descAlignY=58&descSize=18&color=0:4FC3F7,100:C084F5" width="100%" alt="Nishit Shivdasani" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1500&color=4FC3F7&center=true&vCenter=true&width=620&height=45&lines=TypeScript+%C2%B7+NestJS+%C2%B7+PostgreSQL+%C2%B7+Microservices;Event-driven+backends+that+stay+up+under+load;Clean+architecture%2C+reusable+by+default" alt="TypeScript, NestJS, PostgreSQL, Microservices" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1500&color=4FC3F7&center=true&vCenter=true&width=760&height=45&lines=TypeScript+%C2%B7+NestJS+%C2%B7+PostgreSQL+%C2%B7+Microservices;Event-driven+backends+that+stay+up+under+load;Clean+architecture%2C+reusable+by+default" alt="TypeScript, NestJS, PostgreSQL, Microservices" />
 </p>
 
 <p align="center">
