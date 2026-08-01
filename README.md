@@ -186,11 +186,6 @@ Regenerated nightly by [`3d-profile.yml`](.github/workflows/3d-profile.yml) — 
   <p align="center"><img width="88%" src="./profile-3d-contrib/profile-night-view.svg" alt="Night view render" /></p>
 </details>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
-  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake animation" />
-</picture>
-
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&text=Thanks%20for%20stopping%20by&fontSize=32&fontAlignY=72&fontColor=ffffff&color=0:C084F5,100:4FC3F7" width="100%" alt="Thanks for stopping by" />

@@ -8,8 +8,8 @@ on:
 permissions:
   contents: write
 
-# Shared with snake.yml and projects.yml so the three README-asset workflows
-# queue instead of racing each other's pushes to main.
+# Shared with projects.yml so the README-asset workflows queue instead of
+# racing each other's pushes to main.
 concurrency:
   group: readme-assets
   cancel-in-progress: false
