@@ -1,13 +1,13 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Nishit%20Shivdasani&fontSize=64&fontAlignY=36&fontColor=ffffff&desc=Full-Stack%20Developer&descAlignY=58&descSize=18&color=0:4FC3F7,100:C084F5" width="100%" alt="Nishit Shivdasani" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Nishit%20Shivdasani&fontSize=64&fontAlignY=36&fontColor=ffffff&desc=Software%20Engineer%20(SDE%20II)%20%C2%B7%20Full-Stack%20%C2%B7%20Microservices&descAlignY=58&descSize=18&color=0:4FC3F7,100:C084F5" width="100%" alt="Nishit Shivdasani" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1500&color=4FC3F7&center=true&vCenter=true&width=620&height=45&lines=TypeScript+%C2%B7+NestJS+%C2%B7+React+%C2%B7+PostgreSQL;Clean+architecture%2C+reusable+by+default" alt="TypeScript, NestJS, React, PostgreSQL" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1500&color=4FC3F7&center=true&vCenter=true&width=620&height=45&lines=TypeScript+%C2%B7+NestJS+%C2%B7+PostgreSQL+%C2%B7+Microservices;Event-driven+backends+that+stay+up+under+load;Clean+architecture%2C+reusable+by+default" alt="TypeScript, NestJS, PostgreSQL, Microservices" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nishit-shivdasani-54953540b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:nishitshivdasani2001@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://drive.google.com/file/d/1KLw8J_zy4SHtcUWBTTJOhe9ZdvAso-Ai/view?usp=sharing"><img src="https://img.shields.io/badge/Résumé-4FC3F7?style=flat-square&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+  <a href="mailto:nishitshiv2001@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="./assets/Nishit_Shivdasani_Resume.pdf"><img src="https://img.shields.io/badge/Résumé-4FC3F7?style=flat-square&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
   <img src="https://komarev.com/ghpvc/?username=nishit-shivdasani&label=Views&color=7C6BF5&style=flat-square" alt="Profile views" />
 </p>
 
@@ -15,13 +15,36 @@
 
 ## About
 
-Full-stack developer building production-grade applications end to end. I care about clean
-architecture, reusable component design, and backend performance — the parts that decide
-whether a codebase is still pleasant to work in six months later.
+Software Engineer (SDE II) with 3+ years shipping web applications end to end — independent
+client work through production SaaS. Backend- and system-design–focused, building services
+inside distributed, event-driven microservice architectures. I care about clean architecture,
+reusable component design, and backend performance — the parts that decide whether a codebase
+is still pleasant to work in six months later.
 
 - Backend-leaning full-stack, strongest in **TypeScript / NestJS / PostgreSQL**
-- Currently exploring AI/ML, data visualization, and cloud deployment
+- Based in **Ahmedabad, Gujarat, India**
+- **MCA**, Dharmsinh Desai University — First Class with Distinction
 - Open to collaboration and interesting engineering problems
+
+## Experience
+
+**Software Engineer (SDE II)** · KRS Solutions · Apr 2026 – Present
+Building **TestOwl**, a no-code cross-browser test-automation platform — NestJS + PostgreSQL
+services, an Electron desktop client, and a GCP-based runner that executes test cases at scale.
+Nginx for routing, Grafana for observability, TDD throughout.
+
+**Software Engineer (SDE I)** · eSparkBiz · Jun 2024 – Mar 2026
+Backend and full-stack on **Sportafi**, a blockchain-powered sports-engagement platform —
+**50K+ users at ~99% uptime under 5K–10K concurrent load** during live events. Built services
+across a 3–5 service NestJS microservices architecture with RabbitMQ messaging and BullMQ jobs,
+**cut database load ~20–30%** on hot paths with Redis caching, and replaced dashboard polling
+with live Centrifugo streams.
+
+**Independent Software Engineer** · Self-employed · Jan 2023 – May 2024
+Delivered end-to-end client projects on Python/Django, React, and the MEAN stack while studying —
+scoping directly with clients and running multiple engagements at once.
+
+<sub>Full history in the <a href="./assets/Nishit_Shivdasani_Resume.pdf">résumé</a>.</sub>
 
 ## Tech
 
@@ -72,46 +95,68 @@ whether a codebase is still pleasant to work in six months later.
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" title="TailwindCSS" alt="TailwindCSS" />
-      <br>Tailwind
+      <img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql" width="45" height="45" title="PostgreSQL" alt="PostgreSQL" />
+      <br>PostgreSQL
     </td>
     <td align="center" width="90">
       <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" title="MongoDB" alt="MongoDB" />
       <br>MongoDB
     </td>
     <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=redis" width="45" height="45" title="Redis" alt="Redis" />
+      <br>Redis
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=rabbitmq" width="45" height="45" title="RabbitMQ" alt="RabbitMQ" />
+      <br>RabbitMQ
+    </td>
+    <td align="center" width="90">
       <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="45" height="45" title="MySQL" alt="MySQL" />
       <br>MySQL
-    </td>
-    <td align="center" width="90">
-      <img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql" width="45" height="45" title="PostgreSQL" alt="PostgreSQL" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" title="Firebase" alt="Firebase" />
-      <br>Firebase
     </td>
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=vercel" width="45" height="45" title="Vercel" alt="Vercel" />
-      <br>Vercel
+      <img src="https://skillicons.dev/icons?i=aws" width="45" height="45" title="AWS (Lambda, S3)" alt="AWS" />
+      <br>AWS
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=gcp" width="45" height="45" title="Google Cloud Platform" alt="GCP" />
+      <br>GCP
     </td>
     <td align="center" width="90">
       <img src="https://skillicons.dev/icons?i=docker" width="45" height="45" title="Docker" alt="Docker" />
       <br>Docker
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=postman" width="45" height="45" title="Postman" alt="Postman" />
-      <br>Postman
+      <img src="https://skillicons.dev/icons?i=nginx" width="45" height="45" title="Nginx" alt="Nginx" />
+      <br>Nginx
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=grafana" width="45" height="45" title="Grafana" alt="Grafana" />
+      <br>Grafana
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" title="TailwindCSS" alt="TailwindCSS" />
+      <br>Tailwind
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=electron" width="45" height="45" title="Electron" alt="Electron" />
+      <br>Electron
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=vercel" width="45" height="45" title="Vercel" alt="Vercel" />
+      <br>Vercel
     </td>
     <td align="center" width="90">
       <img src="https://skillicons.dev/icons?i=git" width="45" height="45" title="Git" alt="Git" />
       <br>Git
     </td>
     <td align="center" width="90">
-      <img src="https://go-skill-icons.vercel.app/api/icons?i=canva" width="45" height="45" title="Canva" alt="Canva" />
-      <br>Canva
+      <img src="https://skillicons.dev/icons?i=postman" width="45" height="45" title="Postman" alt="Postman" />
+      <br>Postman
     </td>
   </tr>
 </table>
